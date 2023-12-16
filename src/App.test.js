@@ -1,3 +1,6 @@
+// Use "npm test"
+// TODO: Create new tests
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
