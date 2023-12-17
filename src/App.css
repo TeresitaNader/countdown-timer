@@ -5,11 +5,11 @@
   text-align: center;
 }
 
-.App-content {
-  flex-grow: 1; /* This allows the content area to grow and take up available space, pushing the footer down */
+.App .main-content {
+  flex-grow: 1;
 }
 
-.App-header {
+.App .header {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
@@ -20,7 +20,7 @@
   color: white;
 }
 
-.App-footer {
+.App .footer {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
@@ -30,3 +30,4 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
