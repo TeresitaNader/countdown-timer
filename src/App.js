@@ -2,6 +2,7 @@
 
 import React from "react";
 import CountdownTimer from './components/CountdownTimer';
+import FortuneTeller from './components/FortuneTeller';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main className="main-content">
         <h1>Counting Down to 2024</h1>
         <CountdownTimer /> 
+        <FortuneTeller />
       </main>
       <footer className="footer">
         <p>© 2023 Countdown to 2024. All rights reserved.</p>
