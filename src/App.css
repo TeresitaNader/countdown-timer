@@ -10,14 +10,40 @@
 }
 
 .App .header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 75vh;
+  background-color: #000000;
+  overflow: hidden; /* Ensures the video doesn't exceed header bounds */
+}
+
+.App .header video {
+  width: 100%; /* Make video width responsive */
+  height: 100%; /* Maintain aspect ratio */
+  object-fit: contain;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .App .header {
+    height: 58vh; 
+  }
+
+  .App .header video {
+    height: auto;
+    min-width: 100%; 
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .App .header {
+    height: 27vh; 
+  }
+
+  .App .header video {
+    height: auto;
+    min-width: 100%; 
+  }
 }
 
 .App .footer {
