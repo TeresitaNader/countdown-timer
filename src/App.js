@@ -1,4 +1,5 @@
-// Use "npm start"
+// Run local website "npm start"
+// Update Github pages "npm run deploy"
 
 import React from "react";
 import CountdownTimer from './components/CountdownTimer';
