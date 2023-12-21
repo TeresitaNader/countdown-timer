@@ -22,7 +22,7 @@ const fortunes = [
 ];
 
 const FortuneTeller = () => {
-  const [fortune, setFortune] = useState('');
+  const [fortune, setFortune] = useState('Your destiny shall reveal itself in this very place.');
 
   const tellFortune = () => {
     const randomNumber = Math.floor(Math.random() * fortunes.length);
@@ -30,7 +30,7 @@ const FortuneTeller = () => {
   };
 
   const reset = () => {
-    setFortune('');
+    setFortune('Your destiny shall reveal itself in this very place.');
   };
 
   return (
