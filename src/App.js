@@ -6,6 +6,7 @@ import CountdownTimer from './components/CountdownTimer';
 import FortuneTeller from './components/FortuneTeller';
 import './App.css';
 import videoBg from './assets/videoBg.mp4';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
       <main className="main-content">
         <h1>Counting Down to 2024</h1>
         <CountdownTimer /> 
+        <h2>Fortune Teller</h2>
         <FortuneTeller />
+        <h2>Gallery</h2>
+        <Gallery />
       </main>
       <footer className="footer">
         <p>© 2023 Countdown to 2024. All rights reserved.</p>

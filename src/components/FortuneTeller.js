@@ -36,9 +36,9 @@ const FortuneTeller = () => {
   return (
     <div className="Fortune">
       {/* aria-label=" " is to increase accesibility */}
-      <button className="button fortune-button" onClick={tellFortune} aria-label="Tell Fortune">Discover What Awaits You in the New Year!</button>
-      <button className="button fortune-reset" onClick={reset} aria-label="Reset Fortune">Reset</button>
       <div className="fortune-text">{fortune}</div>
+      <button className="button fortune-button" onClick={tellFortune} aria-label="Tell Fortune">Discover What Awaits You in the New Year!</button>
+      <button className="button fortune-reset" onClick={reset} aria-label="Reset Fortune">Reset</button> 
     </div>
   );
 }

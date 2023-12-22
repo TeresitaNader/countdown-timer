@@ -1,7 +1,7 @@
 .Fortune .fortune-button {
   font-size: 16px; 
   font-weight: 600;
-  background-color: #8f60d6;
+  background-color: green;
   color: white;
   padding: 10px 20px; 
   border: none; 
@@ -10,13 +10,14 @@
   cursor: pointer; 
   transition: all 0.3s ease; /* Smooth transition for interactions */
   margin: 5px; /* Add some space between the buttons */
+  margin-right: 65px;
   background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.1));
 }
 
 .Fortune .fortune-reset {
   font-size: 16px; 
   font-weight: 600;
-  background-color: #eb97b0;
+  background-color: gray;
   color: white;
   padding: 10px 20px; 
   border: none; 
@@ -25,16 +26,17 @@
   cursor: pointer; 
   transition: all 0.3s ease; 
   margin: 5px; 
+  margin-left: 65px;
   background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.1));
 }
 
 .Fortune .fortune-button:hover, .Fortune .fortune-reset:hover {
-  background-color: #673ca9; /* Slightly darker shade when hovered */
+  background-color: rgb(1, 79, 1); /* Slightly darker shade when hovered */
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
 }
 
 .Fortune .fortune-reset:hover {
-  background-color: #d96a8c; /* Slightly darker shade when hovered */
+  background-color: red; /* Slightly darker shade when hovered */
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -43,14 +45,15 @@
 }
 
 .Fortune .fortune-text {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: -25px;
   margin-left: auto; /* Center the box horizontally */
   margin-right: auto; /* Center the box horizontally */
-  padding: 15px; 
-  background-color: #8f60d6; 
+  padding: 55px; 
+  background-color: rgb(0, 0, 0); 
   color: white; 
-  font-size: 18px;
+  font-size: 20px; 
+  font-weight: 600;
   border-radius: 15px; 
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
   max-width: 600px;
