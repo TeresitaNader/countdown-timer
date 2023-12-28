@@ -1,5 +1,5 @@
 # Visit the Live Website 
-**(This is a responsive web design. Try it on your mobile device!)**
+**(This is a responsive web design. Try it on your mobile device!)**<br />
 https://teresitacgnader.github.io/countdown-timer/
 
 ## Description
