@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/countdown-timer/static/css/main.4d765227.css",
-    "main.js": "/countdown-timer/static/js/main.68f6ae23.js",
+    "main.js": "/countdown-timer/static/js/main.71d4402f.js",
     "static/js/787.9bb712ba.chunk.js": "/countdown-timer/static/js/787.9bb712ba.chunk.js",
     "static/media/videoBg.mp4": "/countdown-timer/static/media/videoBg.5db87fd29cbfb0d67d84.mp4",
     "static/media/picture-1.webp": "/countdown-timer/static/media/picture-1.70640a354ce5095a9c4c.webp",
@@ -12,11 +12,11 @@
     "static/media/picture-3.webp": "/countdown-timer/static/media/picture-3.0e2dbba8522af2470ef3.webp",
     "index.html": "/countdown-timer/index.html",
     "main.4d765227.css.map": "/countdown-timer/static/css/main.4d765227.css.map",
-    "main.68f6ae23.js.map": "/countdown-timer/static/js/main.68f6ae23.js.map",
+    "main.71d4402f.js.map": "/countdown-timer/static/js/main.71d4402f.js.map",
     "787.9bb712ba.chunk.js.map": "/countdown-timer/static/js/787.9bb712ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d765227.css",
-    "static/js/main.68f6ae23.js"
+    "static/js/main.71d4402f.js"
   ]
 }
